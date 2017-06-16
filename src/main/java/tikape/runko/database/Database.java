@@ -8,6 +8,7 @@ public class Database {
 
     private String databaseAddress;
 
+    // muutos Databaseen
     public Database(String databaseAddress) throws ClassNotFoundException {
         this.databaseAddress = databaseAddress;
     }
