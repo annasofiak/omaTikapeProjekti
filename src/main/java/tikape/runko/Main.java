@@ -12,7 +12,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Database database = new Database("jdbc:sqlite:opiskelijat.db");
         database.init();
-
+        
+        // tama on kommentti
         OpiskelijaDao opiskelijaDao = new OpiskelijaDao(database);
 
         get("/", (req, res) -> {
